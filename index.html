@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EVEX | Live Event Intelligence</title>
+<meta name="description" content="EVEX convierte eventos en experiencias digitales medibles.">
+<meta name="theme-color" content="#0D0533">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#top">Saltar al contenido</a>
+
+<header class="nav" id="nav">
+  <a class="nav-logo" href="#top" aria-label="EVEX inicio">
+    <span class="nav-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>EVEX<sup>®</sup>
+  </a>
+  <nav class="nav-links" aria-label="Principal">
+    <a href="#servicio">Servicio</a>
+    <a href="#intelligence">Inteligencia</a>
+    <a href="#planes">Planes</a>
+    <a href="#case">Piloto</a>
+  </nav>
+  <a class="btn btn-lime nav-cta" href="#contact">Start a project <span aria-hidden="true">↗</span></a>
+</header>
+
+<main id="top">
+
+<!-- HERO: bento de bloques -->
+<section class="hero">
+  <div class="hero-grid">
+    <div class="tile t-word" data-reveal>
+      <div class="tile-meta"><span>Event Experience Intelligence</span><span>Monterrey, MX</span></div>
+      <h1 class="px-word" data-word="EVEX" aria-label="EVEX"></h1>
+    </div>
+
+    <div class="tile t-count" data-reveal>
+      <div class="tile-meta"><span>Interacciones en vivo</span><span class="live">Demo</span></div>
+      <strong class="count" id="heroCount">6,848</strong>
+      <div class="mini-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+
+    <div class="tile t-head" data-reveal>
+      <h2>Every interaction becomes signal.</h2>
+      <p>Registro por QR, inteligencia en vivo y contenido del evento en una sola plataforma para organizadores.</p>
+      <a class="link-arrow" href="#experience">Enter the experience <span aria-hidden="true">↓</span></a>
+    </div>
+
+    <div class="tile t-steps" data-reveal>
+      <ol class="steps" id="heroSteps">
+        <li class="on"><b>01</b><span>Scan</span></li>
+        <li><b>02</b><span>Connect</span></li>
+        <li><b>03</b><span>Capture</span></li>
+        <li><b>04</b><span>Understand</span></li>
+      </ol>
+    </div>
+
+    <a class="tile t-cta" href="#contact" data-reveal>
+      <span class="cta-top">Tu próximo evento</span>
+      <span class="cta-word">Start a project</span>
+      <span class="cta-arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
+</section>
+
+<!-- EXPERIENCE: historia pinneada -->
+<section class="experience" id="experience">
+  <div class="exp-sticky">
+    <div class="exp-copy">
+      <h2>One scan.<br>Everything starts.</h2>
+      <p>El asistente no ve tecnología. Ve una experiencia que simplemente funciona.</p>
+      <ol class="exp-steps">
+        <li class="active"><b>01</b><span>Escanea el QR</span></li>
+        <li><b>02</b><span>Registro en segundos</span></li>
+        <li><b>03</b><span>Conectado al evento</span></li>
+      </ol>
+    </div>
+
+    <div class="phone-wrap">
+      <div class="phone-blocks" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <div class="phone">
+        <div class="notch"></div>
+        <div class="screen">
+          <div class="app-top"><span>EXPO ESOTÉRICA</span><b>EVEX</b></div>
+          <div class="app-stage s1 active">
+            <small>Bienvenida</small>
+            <h3>Tu experiencia empieza aquí.</h3>
+            <div class="qr-hero"><div class="qrgrid"></div><div class="scanbeam"></div></div>
+            <button type="button">Escanear QR <span>↗</span></button>
+          </div>
+          <div class="app-stage s2">
+            <small>Registro</small>
+            <h3>Cuéntanos sobre ti.</h3>
+            <label>Nombre</label><div class="field typing" data-text="Jorge Figueroa"></div>
+            <label>Fecha</label><div class="field">26 / 03 / 1971</div>
+            <label>Ciudad</label><div class="field">Ciudad de México</div>
+            <button type="button">Continuar <span>→</span></button>
+          </div>
+          <div class="app-stage s3">
+            <div class="check">✓</div>
+            <small>Conectado</small>
+            <h3>You're in.</h3>
+            <p>Registro creado correctamente.</p>
+            <div class="ticket"><small>Experience ID</small><b>ESO-260921-42E7C4</b><span>Live</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="intel-panel">
+      <div class="panel-head"><span>EVEX Live Intelligence</span><b>Live</b></div>
+      <small class="panel-label">Total interactions</small>
+      <div class="panel-number"><strong id="liveCount">6,847</strong><span class="plusone">+1</span></div>
+      <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="event-row"><span>Just now</span><b>QR Entrada principal</b><strong>Jorge F. / CDMX</strong></div>
+    </div>
+
+    <div class="exp-meter" aria-hidden="true"><span></span></div>
+  </div>
+</section>
+
+<!-- INTELLIGENCE: bento de datos -->
+<section class="intel" id="intelligence">
+  <div class="sec-head" data-reveal>
+    <h2>Data becomes vision.</h2>
+    <p>Un registro no termina en una base de datos. EVEX lo convierte en lectura operativa del evento, en tiempo real.</p>
+  </div>
+
+  <div class="bento">
+    <article class="tile b-attend" data-reveal>
+      <div class="tile-meta"><span>Live attendance</span><span class="live">Live</span></div>
+      <strong class="big" data-count="6848">0</strong>
+      <small>Interacciones hoy</small>
+      <svg viewBox="0 0 500 150" class="linechart" aria-hidden="true"><path d="M0 125 C55 110 72 128 118 92 S190 105 235 68 S310 88 350 45 S430 58 500 12"/></svg>
+      <div class="tile-foot"><span>+18.4% vs. día 1</span><span>Pico 14:32</span></div>
+    </article>
+
+    <article class="tile b-attr" data-reveal>
+      <div class="tile-meta"><span>QR attribution</span><span>08 canales</span></div>
+      <div class="ring"><div><strong>38%</strong><small>Entrada</small></div></div>
+      <div class="qr-bars">
+        <i style="--v:92%"><b>Entrada</b></i>
+        <i style="--v:68%"><b>Stand 04</b></i>
+        <i style="--v:51%"><b>Stage</b></i>
+        <i style="--v:36%"><b>VIP</b></i>
+      </div>
+    </article>
+
+    <article class="tile b-geo" data-reveal>
+      <div class="tile-meta"><span>Geo origin</span><span>Top ciudades</span></div>
+      <strong class="big">42<sup>+</sup></strong>
+      <small>Ciudades de origen</small>
+      <ul class="cities">
+        <li><span>Monterrey</span><b>41%</b></li>
+        <li><span>CDMX</span><b>18%</b></li>
+        <li><span>Saltillo</span><b>11%</b></li>
+      </ul>
+    </article>
+
+    <article class="tile b-peak" data-reveal>
+      <div class="tile-meta"><span>Peak flow</span><span>Ahora</span></div>
+      <strong class="big">14:32</strong>
+      <div class="peak-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="tile-foot"><span>184 / hora</span><span>↑ 22%</span></div>
+    </article>
+
+    <article class="tile b-engage" data-reveal>
+      <div class="tile-meta"><span>Engagement</span><span>Live score</span></div>
+      <strong class="big">87<sup>%</sup></strong>
+      <div class="engage-blocks" aria-hidden="true"></div>
+      <p>La audiencia interactúa por encima del ritmo promedio del evento.</p>
+    </article>
+  </div>
+</section>
+
+<!-- QUÉ ES EVEX -->
+<section class="manifest" id="servicio">
+  <div class="manifest-in" data-reveal>
+    <h2>The event is alive. Your data should be too.</h2>
+    <p>EVEX es la plataforma con la que un organizador registra a sus asistentes por QR, ve su evento en tiempo real y publica fotos y video mientras sucede. Tú pones el evento; nosotros la capa digital.</p>
+  </div>
+  <div class="pillars" data-reveal>
+    <span class="p-lime">Registro QR</span><span class="p-sky">Intelligence</span><span class="p-electric">Expo Live</span><span class="p-paper">Media 360</span>
+  </div>
+</section>
+
+<!-- QUÉ INCLUYE: filas -->
+<section class="caps" aria-label="Qué incluye EVEX">
+  <article class="cap" style="--c:var(--lime);--ct:var(--night)">
+    <div class="cap-word">Registro</div>
+    <h3>Cada asistente, identificado.</h3>
+    <p>Landing con la identidad del evento, formulario configurable, QR de registro, ID de participante y una base de asistentes propia, exportable a Excel o CSV.</p>
+  </article>
+  <article class="cap" style="--c:var(--sky);--ct:var(--night)">
+    <div class="cap-word">Intel</div>
+    <h3>El evento, en números y en vivo.</h3>
+    <p>Dashboard en tiempo real con registros por hora, edades, procedencia y qué QR funciona mejor: entrada, stand, conferencia o zona VIP.</p>
+  </article>
+  <article class="cap" style="--c:var(--electric);--ct:var(--paper)">
+    <div class="cap-word">Live</div>
+    <h3>Una galería que crece durante el evento.</h3>
+    <p>Tu equipo sube fotos y video desde celular, computadora o cámara profesional, y aparecen en Expo Live por categorías: momentos, conferencias, stands.</p>
+  </article>
+  <article class="cap" style="--c:var(--paper);--ct:var(--night)">
+    <div class="cap-word">360</div>
+    <h3>Nosotros producimos el contenido.</h3>
+    <p>Cámara 360, cobertura de momentos clave, edición y clips listos para Expo Live, Instagram, TikTok y Facebook, publicados durante el evento.</p>
+  </article>
+</section>
+
+<!-- CÓMO FUNCIONA: para el organizador -->
+<section class="how" aria-labelledby="how-title">
+  <h2 id="how-title" class="how-title" data-reveal>Así trabajamos contigo.</h2>
+  <ol class="how-steps">
+    <li class="tile" data-reveal><b>01</b><h3>Configuramos</h3><p>Landing, formulario y un QR por cada acceso o activación. Probamos todo antes de abrir puertas.</p></li>
+    <li class="tile" data-reveal><b>02</b><h3>Escanean</h3><p>Los asistentes se registran desde su celular en segundos. Sin apps, sin filas.</p></li>
+    <li class="tile" data-reveal><b>03</b><h3>Lo ves en vivo</h3><p>Registros, procedencia y flujo por zona mientras la galería Expo Live se llena.</p></li>
+    <li class="tile" data-reveal><b>04</b><h3>Te llevas el reporte</h3><p>Base de asistentes, métricas y contenido para vender mejor tu siguiente edición.</p></li>
+  </ol>
+</section>
+
+<!-- VENUE: plano de bloques -->
+<section class="venue" id="venue">
+  <div class="sec-head" data-reveal>
+    <h2>Don't guess what worked.</h2>
+    <p>Cada QR puede ser una entrada, stand, conferencia, zona VIP o activación. EVEX convierte cada punto en una señal.</p>
+  </div>
+  <div class="floor" data-reveal>
+    <div class="zone z-entry"><b data-count="2841">0</b><span>Entrada</span><i></i></div>
+    <div class="zone z-stand"><b data-count="927">0</b><span>Stand 04</span><i></i></div>
+    <div class="zone z-stage"><b data-count="638">0</b><span>Stage</span><i></i></div>
+    <div class="zone z-exp"><b data-count="1107">0</b><span>Experience</span><i></i></div>
+    <div class="zone z-core"><small>EVEX signal</small><strong>LIVE</strong><span>08 canales</span></div>
+  </div>
+</section>
+
+<!-- PLANES -->
+<section class="plans" id="planes">
+  <div class="sec-head" data-reveal>
+    <h2>Un plan anual para todos tus eventos.</h2>
+    <p>Pagas una vez al año y usas EVEX en cada edición. Elige cuánto quieres medir y cuánto contenido quieres que produzcamos.</p>
+  </div>
+  <div class="plan-grid">
+    <article class="plan" data-reveal>
+      <h3>Essential</h3>
+      <p class="plan-pitch">Quiero registrar y medir mis eventos.</p>
+      <div class="plan-nums"><div><b>4</b><span>eventos al año</span></div><div><b>5K</b><span>registros por evento</span></div></div>
+      <ul>
+        <li>Landing personalizada y registro QR</li>
+        <li>Múltiples QR por acceso o canal</li>
+        <li>Dashboard en vivo y exportación Excel/CSV</li>
+        <li>Reporte post-evento básico</li>
+        <li>Soporte remoto</li>
+      </ul>
+      <a class="btn btn-ghost" href="#contact" data-plan="Essential">Cotizar Essential</a>
+    </article>
+
+    <article class="plan plan-featured" data-reveal>
+      <span class="plan-badge">Recomendado</span>
+      <h3>Experience</h3>
+      <p class="plan-pitch">Quiero medir y crear una experiencia digital en vivo.</p>
+      <div class="plan-nums"><div><b>6</b><span>eventos al año</span></div><div><b>10K</b><span>registros por evento</span></div></div>
+      <ul>
+        <li>Todo lo de Essential</li>
+        <li>Intelligence avanzado: horas, edades, procedencia, canales</li>
+        <li>Expo Live con fotos y video de tu equipo</li>
+        <li>Reporte post-evento avanzado</li>
+        <li>Soporte prioritario</li>
+      </ul>
+      <a class="btn btn-lime" href="#contact" data-plan="Experience">Cotizar Experience</a>
+    </article>
+
+    <article class="plan" data-reveal>
+      <h3>360 Media</h3>
+      <p class="plan-pitch">Quiero que ustedes produzcan el contenido de mis eventos.</p>
+      <div class="plan-nums"><div><b>6</b><span>eventos al año</span></div><div><b>30</b><span>clips editados por evento</span></div></div>
+      <ul>
+        <li>Todo lo de Experience</li>
+        <li>Cámara 360 y cobertura fotográfica de momentos clave</li>
+        <li>Edición y publicación durante el evento</li>
+        <li>Hasta 5 activaciones de producción al año</li>
+        <li>Reporte post-evento ejecutivo</li>
+      </ul>
+      <a class="btn btn-ghost" href="#contact" data-plan="360 Media">Cotizar 360 Media</a>
+    </article>
+  </div>
+  <p class="plans-note" data-reveal>La producción 360 cubre ventanas de grabación acordadas previamente. Cobertura continua, transmisiones en vivo o personal adicional se cotizan aparte.</p>
+</section>
+
+<!-- PILOTO -->
+<section class="case" id="case">
+  <div class="case-grid">
+    <div class="case-copy" data-reveal>
+      <small class="case-tag"><span class="live">Piloto en curso</span> Expo Esotérica, 2026</small>
+      <h2>Built for real people. Real events.</h2>
+      <p>Nuestro primer piloto ya está en marcha en una expo real: tres días, alrededor de 7,000 asistentes y una meta clara: que cada persona entre escaneando su QR.</p>
+    </div>
+    <figure class="case-media collage" data-reveal aria-label="Vista del producto EVEX: dashboard en vivo, app de registro, galería Expo Live y recorrido 360">
+      <!-- Dashboard en vivo -->
+      <div class="cl-dash">
+        <div class="cl-bar"><i></i><i></i><i></i><span>EVEX Live · Expo Esotérica</span><b class="live">Live</b></div>
+        <div class="cl-kpis">
+          <div><small>Registros</small><strong class="cl-count">2,841</strong></div>
+          <div><small>Por hora</small><strong>184</strong></div>
+          <div><small>Ciudades</small><strong>42</strong></div>
+        </div>
+        <svg class="cl-line" viewBox="0 0 300 80" preserveAspectRatio="none" aria-hidden="true"><path class="area" d="M0 70 C30 64 45 72 70 55 S115 60 140 42 S190 50 215 28 S265 34 300 8 L300 80 L0 80Z"/><path class="stroke" d="M0 70 C30 64 45 72 70 55 S115 60 140 42 S190 50 215 28 S265 34 300 8"/></svg>
+        <div class="cl-qr"><span style="--w:92%">Entrada</span><span style="--w:64%">Stand 04</span><span style="--w:47%">Stage</span></div>
+      </div>
+
+      <!-- App de registro -->
+      <div class="cl-phone">
+        <div class="cl-notch"></div>
+        <small>Registro</small>
+        <strong>Cuéntanos sobre ti.</strong>
+        <label>Nombre</label><div class="cl-field">Ana Lucía R.</div>
+        <label>Ciudad</label><div class="cl-field">Monterrey</div>
+        <div class="cl-btn">Registrarme <span>→</span></div>
+        <div class="cl-qrmini" aria-hidden="true"></div>
+      </div>
+
+      <!-- Galería Expo Live -->
+      <div class="cl-gallery">
+        <div class="cl-head"><span>Expo Live</span><b>Galería</b></div>
+        <div class="cl-thumbs"><i class="g1"></i><i class="g2"></i><i class="g3"></i><i class="g4"></i><i class="g5"><span>▶</span></i><i class="g6"></i></div>
+        <div class="cl-tags"><span>Momentos</span><span>Stands</span><span>Conferencias</span></div>
+      </div>
+
+      <!-- Recorrido 360 -->
+      <div class="cl-360">
+        <div class="cl-planet" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="cl-360-label"><b>360°</b><span>Recorrido</span></div>
+        <span class="cl-drag" aria-hidden="true">↔</span>
+      </div>
+
+      <span class="cl-toast"><b>+1</b> Registro · QR Entrada</span>
+    </figure>
+    <div class="case-stats" data-reveal>
+      <div class="tile s-lime"><b>~7K</b><span>Asistentes esperados</span></div>
+      <div class="tile s-sky"><b>3</b><span>Días de evento</span></div>
+      <div class="tile s-electric"><b>100%</b><span>Meta de registro por QR</span></div>
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Registration</span><span>QR attribution</span><span>Live dashboard</span><span>Audience data</span>
+      <span>Registration</span><span>QR attribution</span><span>Live dashboard</span><span>Audience data</span>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="final" id="contact">
+  <div class="final-blocks" aria-hidden="true"></div>
+  <div class="final-in">
+    <div class="final-copy">
+      <h2 class="final-title"><span>Make it</span><span>measurable.</span></h2>
+      <p>Cuéntanos de tu evento y te respondemos con una propuesta en menos de 48 horas hábiles.</p>
+      <p class="final-alt">¿Prefieres correo? <a href="mailto:contacto@meridianogis.com">contacto@meridianogis.com</a></p>
+    </div>
+
+    <form class="lead-form tile" id="leadForm" action="https://formsubmit.co/contacto@meridianogis.com" method="POST" novalidate>
+      <!-- FormSubmit: configuración del correo que recibes -->
+      <input type="hidden" name="_subject" value="Nueva solicitud EVEX">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <div class="f-row">
+        <div class="f-field">
+          <label for="f-name">Nombre</label>
+          <input id="f-name" name="Nombre" type="text" autocomplete="name" required>
+          <small class="f-err">Escribe tu nombre.</small>
+        </div>
+        <div class="f-field">
+          <label for="f-company">Empresa u organización</label>
+          <input id="f-company" name="Empresa" type="text" autocomplete="organization">
+        </div>
+      </div>
+
+      <div class="f-row">
+        <div class="f-field">
+          <label for="f-email">Correo</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required>
+          <small class="f-err">Escribe un correo válido.</small>
+        </div>
+        <div class="f-field">
+          <label for="f-phone">WhatsApp o teléfono <span>(opcional)</span></label>
+          <input id="f-phone" name="Telefono" type="tel" autocomplete="tel">
+        </div>
+      </div>
+
+      <div class="f-row">
+        <div class="f-field">
+          <label for="f-plan">Plan de interés</label>
+          <select id="f-plan" name="Plan">
+            <option>Aún no lo sé</option>
+            <option>Essential</option>
+            <option>Experience</option>
+            <option>360 Media</option>
+          </select>
+        </div>
+        <div class="f-field">
+          <label for="f-size">Asistentes por evento</label>
+          <select id="f-size" name="Asistentes">
+            <option>Menos de 1,000</option>
+            <option>1,000 a 5,000</option>
+            <option>5,000 a 10,000</option>
+            <option>Más de 10,000</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="f-field">
+        <label for="f-msg">Cuéntanos de tu evento</label>
+        <textarea id="f-msg" name="Mensaje" rows="4" placeholder="Nombre del evento, fecha, ciudad y cuántas ediciones haces al año." required></textarea>
+        <small class="f-err">Cuéntanos un poco de tu evento.</small>
+      </div>
+
+      <button class="btn btn-lime btn-xl f-submit" type="submit"><span class="f-label">Enviar solicitud</span> <span aria-hidden="true">↗</span></button>
+      <p class="f-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+  <footer class="foot">
+    <b>EVEX<sup>®</sup></b>
+    <span>Event Experience Intelligence</span>
+    <span>By Meridianogis, 2026</span>
+  </footer>
+</section>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
